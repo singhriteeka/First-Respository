@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment2</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            /*border:2px solid black;*/
+            height:65px;
+            width:100%;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        #logo{
+            border:2px solid black;
+            height:50px;
+            width:50px;
+            background-image: url('nature1.webp');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            border-radius: 50%;
+        }
+        nav{
+            border:2px solid black;
+            height:45px;
+            width:40%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            border-radius: 20px;
+        }
+        nav a{
+            text-decoration: none;
+            font-weight:bold;
+            color:burlywood;
+        }
+        #navbtn{
+            height:60%;
+            width:9%;
+            border-radius: 20px;
+            background-color: burlywood;
+            font-weight: bold;
+            outline: none;
+        }
+        nav a:hover{
+            color: aqua;
+        }
+        #navbtn:hover{
+            background-color: aqua;
+            color: black;
+        }
+        #hero{
+            border:2px solid black;
+            height:60vh;
+            background-image: url('nature.jpg');
+            display: flex;
+            align-items: end;
+            justify-content: center;
+        }
+        #btn1{
+            height:50px;
+            width:120px;
+            border-radius: 20px;
+            background-color: burlywood;
+            font-weight: bold;
+            outline: none;
+        }
+        #btn1:hover{
+            background-color: aqua;
+            color: black;
+        }
+        #img{
+            /*border:2px solid red;*/
+            height:80vh;
+            display: flex;              
+            justify-content: center;
+            align-items: center;
+            gap:1px;
+        }       
+        .box1{
+            border:2px solid black;
+            height:75vh;
+            width:50%;
+            background-image: url('nature2.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .box2{
+            border:2px solid black;
+            height:75vh;
+            width:50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .box21{
+            border:2px solid black;
+            height:75vh;
+            width:60vh;              
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            gap:20px;      
+            padding: 20px;           
+            background: white;        
+        }
+        #btn2{
+            height:50px;
+            width:120px;
+            border-radius: 20px;
+            background-color:aquamarine;
+            font-weight: bold;
+            outline: none;
+        }
+        #btn2:hover{
+            background-color: aqua;
+            color: black;
+        }
+        #img1{
+            /*border:2px solid red;*/
+            height:80vh;
+            display: flex;              
+            justify-content: space-around;
+            align-items: center;
+            gap:1px;
+        }       
+        .box12{
+            border:2px solid black;
+            height:75vh;
+            width:70%;
+            background-image: url('nature2.webp');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .box213{
+            border:2px solid black;
+            height:90vh;
+            width:60vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .box212{
+            border:2px solid black;
+            height:auto;
+            width:100%;              
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;      
+            padding: 20px;           
+            overflow: hidden;        
+        }
+        #btn3{
+            height:50px;
+            width:120px;
+            border-radius: 20px;
+            background-color:aquamarine;
+            font-weight: bold;
+            outline: none;
+        }
+        #btn3:hover{
+            background-color: aqua;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo"></div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Gallery</a>
+            <a href="#">Feedback</a>
+        </nav>
+        <button id="navbtn">Start</button>
+    </header>
+<!--hero section-->
+    <section id="hero">
+        <button id="btn1">Get Started</button>
+    </section>
+<!--image1 section-->
+    <section id="img1">
+        <div class="box1">
+                <div class="box11"></div>
+            </div>
+            <div class="box2">
+                <div class="box21">
+                    <h1>Nature&Forests</h1>
+                    <p>Nature and forests embody a quiet elegance that modern life often forgets. 
+                        Beneath the layered canopies, where sunlight filters through leaves in shifting patterns, 
+                        there exists a harmony shaped over centuries. Forests are not just collections of trees; 
+                        they are living, breathing ecosystems that sustain life, regulate climate, and nurture countless forms of biodiversity.
+                         The gentle rustle of leaves, the earthy fragrance after rain, and the calm they inspire remind us of a deeper 
+                         connection to the world around us. In their presence, time slows, offering clarity, balance, and 
+                         a sense of renewal that no artificial space can replicate.</p>
+                </div>
+                <div class="box22">
+                    <button id="btn2">Nature</button>
+                </div>
+            </div>
+    </section>
+    <!--image2 section-->
+    <section id="img">
+        <div class="box12">
+                <div class="box112"></div>
+            </div>
+            <div class="box21">
+                <div class="box212">
+                    <h1>Nature&Forests</h1>
+                    <p>Nature and forests embody a quiet elegance that modern life often forgets. 
+                        Beneath the layered canopies, where sunlight filters through leaves in shifting patterns, 
+                        there exists a harmony shaped over centuries. Forests are not just collections of trees; 
+                        they are living, breathing ecosystems that sustain life, regulate climate, and nurture countless forms of biodiversity.
+                         The gentle rustle of leaves, the earthy fragrance after rain, and the calm they inspire remind us of a deeper 
+                         connection to the world around us. In their presence, time slows, offering clarity, balance, and 
+                         a sense of renewal that no artificial space can replicate.</p>
+                </div>
+                <div class="box222">
+                    <button id="btn3">Nature</button>
+                </div>
+            </div>
+    </section>
+    
+</body>
+</html>
