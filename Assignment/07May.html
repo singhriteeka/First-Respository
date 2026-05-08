@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment5</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background: #ece7f8;
+        }
+        .container {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            width: 95%;
+            height: 92vh;
+            border-radius: 20px;
+            background: white;
+            display: flex;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        .box1 {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 60px;
+        }
+
+        .box1 h1{
+            font-size: 5rem;
+            color:#111827;
+            line-height: 1.1;
+        }
+
+        .box1 p{
+            width:80%;
+            font-size: 1rem;
+            line-height: 1.7;;
+            margin-top: 25px;
+            color:#6b7280;
+        }
+        .btns{
+            display:flex;
+            gap:15px;
+            margin-top:35px;
+        }
+
+        .btns button{
+            padding: 12px 24px;
+            border: none;
+            border-radius: 15px;
+            background:linear-gradient(135deg,#5A3DF0,#A78BFA);
+            color: white;
+            font-size: 1rem;
+        }
+
+        .btns button:last-child{
+            background:#f3f4f6;
+            color:#111827;
+        }
+
+        .highlight{
+            color:#5A3DF0;
+        }
+
+        .tag{
+            font-size:13px;
+            color:#7c3aed;
+            margin-bottom:20px;
+            font-weight:bold;
+        }
+
+        .box2 {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            gap:15px;
+        }
+
+        .box21 {
+            width: 55%;
+            height: 100%;
+            background:linear-gradient(135deg,#5A3DF0,#A78BFA);
+            border-radius:18px;
+            background-image:url("https://images.unsplash.com/photo-1523170335258-f5ed11844a49?q=80&w=800");
+            background-size:cover;
+            background-position:center;
+        }
+
+        .box22 {
+            width: 45%;
+            height: 100%;
+            gap:15px;
+            display: flex;
+            flex-direction: column;
+        }
+        .box211{
+            width: 100%;
+            height: 50%;
+            background:linear-gradient(135deg,#5A3DF0,#A78BFA);
+            border-radius:18px;
+            background-image:url("https://images.unsplash.com/photo-1546435770-a3e426bf472b?q=80&w=1200");
+            background-size: cover;
+            background-position:center;
+        }
+        .box212{
+            width: 100%;
+            height: 50%;
+            background:linear-gradient(135deg,#D8B4FE,#5A3DF0);
+            border-radius:18px;
+            padding:25px;
+            display:flex;
+            flex-direction:column;
+            justify-content:flex-end;
+            color:white;
+        }
+
+        .box212 p{
+            font-size:0.9rem;
+            margin-top:8px;
+            color:#e5e7eb;
+        }
+
+        .star{
+            font-size:2rem;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="box1">
+               <div class="tag">
+                    ✦ PREMIUM COLLECTION 2026
+                </div>
+
+                <h1>
+                    Elevate Your <br>
+                    <span class="highlight">Daily</span> <br>
+                    <span class="highlight">Essentials.</span>
+                </h1>
+
+                <p>
+                    Experience the perfect blend of minimalist design and high-performance technology with our curated luxury selection.
+                </p>
+
+                <div class="btns">
+                    <button class="btn1">Sign Up</button>
+                    <button class="btn2">Browse Now</button>
+                </div>
+ 
+            </div>
+            <div class="box2">
+                <div class="box21"></div>
+                <div class="box22">
+                    <div class="box211"></div>
+                    <div class="box212">
+                        <div class="star">✧</div>
+
+                        <h2>Smart Curation</h2>
+
+                        <p>
+                            AI-driven choices for your lifestyle.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
