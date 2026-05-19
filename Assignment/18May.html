@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Assignment 4</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#b8c5f0;
+}
+
+.feedback-box{
+    width:550px;
+    background:#dbe3ff;
+    padding:40px;
+    border-radius:25px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+    text-align:center;
+}
+
+.feedback-box h1{
+    font-size:42px;
+    margin-bottom:25px;
+    color:#111;
+}
+
+.feedback-box p{
+    font-size:18px;
+    color:#555;
+    line-height:1.6;
+    margin-bottom:30px;
+    text-align:left;
+}
+
+.stars{
+    margin-bottom:30px;
+}
+
+.stars span{
+    font-size:55px;
+    margin:5px;
+    cursor:pointer;
+    color:#ffd43b;
+    text-shadow:0 4px 8px rgba(0,0,0,0.2);
+}
+
+.stars span:last-child{
+    color:#cfcfcf;
+}
+
+textarea{
+    width:100%;
+    height:170px;
+    border:none;
+    outline:none;
+    border-radius:20px;
+    padding:20px;
+    font-size:18px;
+    resize:none;
+    background:#eef2ff;
+    box-shadow:inset 0 3px 10px rgba(0,0,0,0.1);
+    margin-bottom:30px;
+}
+
+button{
+    width:160px;
+    height:60px;
+    border:none;
+    border-radius:35px;
+    background:#ffd54f;
+    font-size:30px;
+    cursor:pointer;
+    box-shadow:0 5px 12px rgba(0,0,0,0.2);
+}
+
+button:hover{
+    transform:scale(1.03);
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="feedback-box">
+
+    <h1>Rate your experience</h1>
+
+    <p>
+        We highly value your feedback! Kindly take a
+        moment to rate your experience and provide us
+        with your valuable feedback.
+    </p>
+
+    <div class="stars">
+        <span>★</span>
+        <span>★</span>
+        <span>★</span>
+        <span>★</span>
+        <span>★</span>
+    </div>
+
+    <textarea placeholder="Tell us about your experience!"></textarea>
+
+    <button>Send</button>
+
+</div>
+
+</body>
+</html>
